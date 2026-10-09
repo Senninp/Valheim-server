@@ -93,9 +93,14 @@ Vos mondes « solo / hébergés » sont dans :
 %USERPROFILE%\AppData\LocalLow\IronGate\Valheim\worlds_local
 ```
 
-1. Arrêtez le serveur.
-2. Copiez `NomDuMonde.db` et `NomDuMonde.fwl` dans `windows\data\worlds_local\` (créez le dossier si besoin).
-3. Mettez `WORLD_NAME=NomDuMonde` dans `config.bat`, puis relancez.
+Si le monde est sauvegardé dans le **cloud Steam**, ses fichiers sont plutôt dans le dossier `worlds` (au lieu de `worlds_local`). Vous pouvez aussi le passer en local depuis le jeu, sur l'écran de sélection des mondes.
+
+1. Fermez Valheim et arrêtez le serveur.
+2. Faites une copie de sécurité de ces fichiers quelque part.
+3. Copiez `NomDuMonde.db` et `NomDuMonde.fwl` dans `windows\data\worlds_local\` (créez le dossier si besoin).
+4. Mettez `WORLD_NAME=NomDuMonde` dans `config.bat` (exactement le nom des fichiers, sans l'extension, en respectant les majuscules), puis relancez.
+
+Les personnages ne sont pas concernés : chaque joueur garde le sien, avec son inventaire.
 
 ## Sauvegardes
 
