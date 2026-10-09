@@ -1,0 +1,9 @@
+# Fichiers generes par les scripts Windows
+windows/steamcmd/
+windows/server/
+windows/data/
+
+# Donnees du conteneur Docker (Linux)
+linux/config/
+linux/data/
+linux/.env
